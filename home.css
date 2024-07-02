@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header{
+    height: 60px;
+    background-color: #6699cc;
+}
+
+header .container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    align-items: center;
+    color: #fff;
+    margin-right: 1.5rem;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    cursor: pointer;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.left{
+    position: absolute;
+    left: 10%;
+}
+
+.left a,
+.right a {
+    text-decoration: none;
+    color: #e0e0e0;
+    margin: 0 10px;
+}
+
+.navigation-site{
+    left: 10%;
+    line-height: 30px;
+    position: absolute;
+    top: 60px;
+}
+
+.navigation-site ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigation-site ul li a{
+    text-decoration: none;
+    color: #333
+}
+
+.polosa{
+    width: 75%;
+    height: 2px;
+    background-color: #333;
+    margin: 5px auto;
+}
+
+.card{
+    display: inline-block;
+    /* background-color: red; */
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.panel-posts{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    /* background-color: rgba(0, 255, 255, 0.307); */
+}
+
+.card{
+    position: relative;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.card .image{
+    position: absolute;
+    width: 10%;
+    height: 150px;
+    /* background-color: yellow; */
+}
+
+.card .image img{
+    width: 100%;
+    margin: 10px;
+    border-radius: 10000px;
+}
+
+.card .info-user{
+    margin-top: 15px;
+    display: inline-flex;
+    border-bottom: 2px solid #333;
+    width: 80%;
+    margin-left: 15%;
+}
+
+.card .post-text{
+    display: inline-flex;
+    margin: 10px 0;
+    width: 80%;
+    margin-left: 15%;
+}
+
+.card .info-user a{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+}
+
+.card .info-user p{
+    margin-left: 5px;
+}
