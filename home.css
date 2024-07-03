@@ -142,3 +142,21 @@ header .container{
 .card .info-user p{
     margin-left: 5px;
 }
+
+.actions{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 0 15px;
+    /* background-color: pink; */
+}
+
+.actions .like,
+.actions .chat{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5000px;
+    /* background-color: gray; */
+}
